@@ -2,8 +2,12 @@
 números.
 */
 
-let num = 3;
-let num1 = 3;
-let num2 = 3;
+const prompt=require('prompt-sync')();
 
-console
+let n1 = Number(prompt("digite um numero: "))
+let n2 = Number(prompt("digite um numero: "))
+let n3 = Number(prompt("digite um numero: "))
+
+let media = (n1 + n2 + n3) / 3
+
+console.log("Sua media é: "+ media )
