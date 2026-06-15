@@ -13,7 +13,7 @@ let lado3 = Number(prompt('digite  medida do terceiro lado: '));
 
 if (lado1 == lado2 && lado3 == lado1){
     console.log("É um Triangulo Equilátero")
-} else if (lado1 == lado2 && lado3 != lado1){
+} else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
     console.log("É um Triângulo Isóscele")
 } else{
     console.log("É um Triangulo Escaleno")
